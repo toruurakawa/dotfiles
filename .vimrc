@@ -1,7 +1,7 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/vundle.git/
 call vundle#rc()
 
 " let Vundle manage Vundle
@@ -10,6 +10,8 @@ Bundle 'gmarik/vundle'
 
 " My Bundles here:
 "
+Bundle 'Markdown'
+Bundle 'suan/vim-instant-markdown'
 " original repos on github
 
 " vim-scripts repos
