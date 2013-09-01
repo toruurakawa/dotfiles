@@ -13,19 +13,15 @@ setopt pushd_ignore_dups
 # global alias
 alias -g L='| less'
 alias -g G='| grep'
-alias -g eng='cd /Users/toru/Documents/Study/ForeignLanguages/English/EnglishGrammerInUse'
 alias cd='pushd'
 alias p='popd > /dev/null'
 alias zshrc='vim /Users/toru/.zshrc'
+alias eng='cd ~/Documents/Study/ForeignLanguages/English/EnglishGrammerInUse' 
 
 # ヒストリの設定
 HISTFILE=~/.zsh_history
 HISTSIZE=1000000
 SAVEHIST=1000000
- 
- 
-# emacs 風キーバインドにする
-bindkey -e
  
 # その他とりあえずいるもの
 export LANG=ja_JP.UTF-8
