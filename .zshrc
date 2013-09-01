@@ -40,3 +40,11 @@ setopt no_flow_control
 setopt interactive_comments
  
 # vim:set ft=zsh :
+
+# prompt
+autoload colors
+colors
+local p_cdir="%F{blue}%1d%f:"
+local p_info="%n"
+PROMPT=" $p_cdir$p_info > "
+
