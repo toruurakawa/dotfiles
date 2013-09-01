@@ -21,3 +21,4 @@ Bundle 'suan/vim-instant-markdown'
 " git repos on your local machine (ie. when working on your own plugin)
 
 filetype plugin indent on     " required!
+syntax on

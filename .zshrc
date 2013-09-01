@@ -10,10 +10,14 @@ setopt auto_pushd
 setopt pushd_ignore_dups
  
  
-# グローバルエイリアス
+# global alias
 alias -g L='| less'
 alias -g G='| grep'
- 
+alias -g eng='cd /Users/toru/Documents/Study/ForeignLanguages/English/EnglishGrammerInUse'
+alias cd='pushd'
+alias p='popd > /dev/null'
+alias zshrc='vim /Users/toru/.zshrc'
+
 # ヒストリの設定
 HISTFILE=~/.zsh_history
 HISTSIZE=1000000
