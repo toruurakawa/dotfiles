@@ -46,5 +46,5 @@ autoload colors
 colors
 local p_cdir="%F{blue}%1d%f:"
 local p_info="%n"
-PROMPT=" $p_cdir$p_info > "
+PROMPT="$p_cdir$p_info > "
 
