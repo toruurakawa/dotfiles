@@ -13,6 +13,7 @@ setopt pushd_ignore_dups
 # global alias
 alias -g L='| less'
 alias -g G='| grep'
+alias c='clear'
 alias cd='pushd'
 alias p='popd > /dev/null'
 alias zshrc='vim /Users/toru/.zshrc'
