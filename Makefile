@@ -1,11 +1,13 @@
-DOT_FILES = .zshrc .vimrc .vim
+DOT_FILES = .zshrc .vimrc .vim .tmux.conf
 
-all: zsh vim 
+all: zsh vim tmux
 
 zsh: $(foreach f, $(filter .zsh%, $(DOT_FILES)), link-dot-file-$(f))
 
 vim: $(foreach f, $(filter .vim%, $(DOT_FILES)), link-dot-file-$(f))
-  
+
+tmux: $(foreach f, $(filter .tmux%, $(DOT_FILES)), link-dot-file-$(f))
+
 .PHONY: clean
 clean: $(foreach f, $(DOT_FILES), unlink-dot-file-$(f))
   
